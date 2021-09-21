@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="important words of webpages">
+        <meta name="description" content="short note regarding webpages">
+        <meta name="author" content="Author name">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="cal.css">
+
+
+        
+       
+    </head>
+    <body>
+    <h1>Simple Calculator</h1>
+
+     <table border="0" class="container cen">
+        
+      <tr>
+       <td colspan="3"><input type="text" id="result" class="result"/></td> 
+        <td rowspan="1"><input type="button" class="clr" value="clear" onclick="clearall()"/> </td>
+        <td rowspan="1"><input type="button" class="del" value="Del" onclick="delet()"/> </td>
+     </tr>
+      
+
+    <tr>
+         <td><input type="button" class="btn" value="1" onclick="answer('1')"/> </td>  
+          <td> <input type="button" class="btn" value="2" onclick="answer('2')"/> </td>
+           <td> <input type="button" class="btn" value="3" onclick="answer('3')"/> </td>
+           <td><input type="button" class="btns" value="+" onclick="answer('+')"/> </td>
+           <td> <input type="button" class="btns" value="^" onclick="answer('^')"/></td>
+           
+         </tr>
+         <tr>
+            <td><input type="button" class="btn" value="4" onclick="answer('4')"/> </td>
+            <td><input type="button" class="btn" value="5" onclick="answer('5')"/> </td>
+            <td><input type="button"  class="btn"value="6" onclick="answer('6')"/> </td>
+            <td><input type="button" class="btns" value="-" onclick="answer('-')"/> </td>
+            <td><input type="button" class="btns" value="%" onclick="answer('%')"/> </td>
+         </tr>
+         <tr>
+            <td><input type="button" class="btn" value="7" onclick="answer('7')"/> </td>
+            <td><input type="button" class="btn" value="8" onclick="answer('8')"/> </td>
+            <td><input type="button" class="btn" value="9" onclick="answer('9')"/> </td>
+            <td><input type="button" class="btns" value="*" onclick="answer('*')"/> </td>
+            <td><input type="button" class="btns" value="/" onclick="answer('/')"/> </td>
+           
+         </tr>
+         <tr>
+            <td><input type="button" class="btn" value="." onclick="answer('.')"/> </td>
+            <td><input type="button" class="btn" value="0" onclick="answer('0')"/> </td>
+           
+            <td ><input type="button" class="btn1" value="=" onclick="result()"/> </td>
+         </tr>
+      </table>
+
+    <ul id="history">
+     <h2>History</h2>
+    </ul>
+   
+    <script src="cal.js"></script>
+    </body>
+
+    </html>

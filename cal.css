@@ -1,0 +1,52 @@
+.container{
+    text-align: center;
+    height:300px;
+    width:300px;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: pink;
+
+}
+.btn{
+    width:45px;
+    height:30px;
+
+}
+.btns{
+    width:45px;
+    height:30px;
+    background-color:indianred;
+    border:0px;
+   border-radius:3px
+   
+}
+.btn1{
+   width: 60px; 
+   height:30px;
+   background-color:green;
+   border:0px;
+   border-radius:3px
+   
+}
+.result{
+    height:40px;
+    border-color: green;
+    border-width:3px;
+    border-radius:3px;
+  
+}
+.clr{
+    height:30px;
+    background-color:red;
+    border:0px;
+   border-radius:3px
+}
+.del{
+    height:30px;
+    background-color:red;
+    border:0px;
+   border-radius:3px
+}
+.cen{
+    text-align: center;
+}
