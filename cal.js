@@ -16,6 +16,7 @@ function result(){
     let firstVal = document.getElementById("result").value;
 
     let secondVal = eval(firstVal);
+
     let list = firstVal + " = "+ secondVal 
     console.log(list)
 
@@ -34,10 +35,8 @@ function clearall(){
 
 function addlist(each) {
     let listEl = document.createElement("li");
-    listEl.classList.add("eachHistory")
-    listEl.textContent = each
-
-    ulEl.appendChild(listEl)
-}
+    listEl.textContent = each;
+    ulEl.appendChild(listEl);
+}    
 
 
