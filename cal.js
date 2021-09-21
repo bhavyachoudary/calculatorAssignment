@@ -2,16 +2,12 @@ var resultE1=document.getElementById("result")
 var resultE1=document.getElementById("result")
 var ulEl=document.getElementById("history");
 
-
-
 function answer(eachValue){
 
     document.getElementById("result").value += eachValue;
    
 }
-  
-
-function result(){
+  function result(){
 
     let firstVal = document.getElementById("result").value;
 
@@ -29,9 +25,6 @@ function clearall(){
 
     document.getElementById("result").value=""
 }
-
-
-
 
 function addlist(each) {
     let listEl = document.createElement("li");
